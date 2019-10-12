@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TrackList from './app/music-player/components/TrackList';
-import { MusicPlayerProvider } from './app/music-player/MusicPlayerContext';
+import TrackList from './components/TrackList';
+import { MusicPlayerProvider } from './MusicPlayerContext';
 
 function App() {
   return (
