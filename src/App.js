@@ -1,8 +1,8 @@
 import React from 'react';
 
-import TrackList from './components/TrackList';
-import PlayerControls from './components/PlayerControls';
-import { MusicPlayerProvider } from './MusicPlayerContext';
+import TrackList from './app/music-player/components/TrackList.js';
+import PlayerControls from './app/music-player/components/PlayerControls.js';
+import { MusicPlayerProvider } from './app/music-player/MusicPlayerContext.js';
 
 function App() {
   return (
